@@ -1,0 +1,23 @@
+community: Your Community
+tokengroup: tokened
+tokenworld: false
+urlregistration: http://localhost/
+notokenwarning:
+- You are not yet registered on the server
+- Some functionality will be disabled until you are registered!
+- Type /token help for more information
+mysql:
+    web:
+        user: pasteweb
+        pass: password
+        database: pasteweb
+        url: localhost
+        table: requests
+        port: 3306
+    plugin:
+        user: pastemc
+        pass: password
+        database: pastemc
+        url: localhost
+        table: requests
+        port: 3306
